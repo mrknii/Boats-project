@@ -174,7 +174,7 @@ A **three-tier architecture**:
 │                auth · validation · rules     │
 ├──────────────────────────────────────────────┤
 │ Data           MySQL via PDO                 │
-│                16 related tables             │
+│                17 related tables             │
 └──────────────────────────────────────────────┘
 ```
 
@@ -183,7 +183,7 @@ business rules, and the database can be tuned without touching either.
 
 ### 5.2 Database design
 
-Sixteen tables, normalised to **third normal form**: every non-key attribute
+Seventeen tables, normalised to **third normal form**: every non-key attribute
 depends on the key, the whole key, and nothing but the key.
 
 | Table | Purpose |
@@ -378,7 +378,7 @@ they demonstrate that testing found real faults.
 
 The delivered system meets every objective in §1.4:
 
-- **Objective 1** — 16 normalised tables covering all enterprises.
+- **Objective 1** — 17 normalised tables covering all enterprises.
 - **Objective 2** — three roles, enforced server-side, verified by TC-16/17/18.
 - **Objective 3** — 17 pages of full CRUD.
 - **Objective 4** — derived alerts surfaced in the notification bell.
