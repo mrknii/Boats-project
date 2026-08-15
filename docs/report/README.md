@@ -6,10 +6,11 @@ The written final-year project report for the GreenAcres Farm Management System.
 |---|---|
 | `Farm_Management_System_Report.docx` | The editable Word document — edit this one |
 | `Farm_Management_System_Report.pdf` | Print-ready PDF generated from the Word file |
-| `img/` | Every screenshot and diagram used in the report, as separate PNGs |
+| `img/` | Every screenshot and diagram, as separate PNGs — including `kstu_crest.png` |
 
 **Prepared for:** Boatemaa Kyerewaa Jantuah · Index Number 052420760094
 **Programme:** Diploma in Information Technology (DIT)
+**Length:** 59 pages
 
 ---
 
@@ -17,40 +18,45 @@ The written final-year project report for the GreenAcres Farm Management System.
 
 | Section | Pages | Orientation |
 |---|---|---|
-| Cover, declaration, dedication, acknowledgement, abstract, contents, lists | i – xii | Portrait |
-| Chapter One — Introduction | 1 – 6 | Portrait |
-| Chapter Two — Literature Review | 7 – 13 | Portrait |
-| Chapter Three — System Analysis and Design | 14 – 34 | Portrait |
-| Chapter Four — Implementation and Testing | 35 – 54 | Portrait |
-| Chapter Five — Summary, Conclusion, Recommendations | 55 – 59 | Portrait |
-| References | 60 – 61 | Portrait |
-| Appendix A — Full-page screenshots and diagrams | 62 – 93 | **Landscape** |
-| Appendix B — Database schema | 94 – 96 | Portrait |
-| Appendix C — Selected source code | 97 – 100 | Portrait |
-| Appendix D — Installation and user guide | 101 – 105 | Portrait |
+| Cover, declaration, dedication, acknowledgement, abstract, contents, lists | i – viii | Portrait |
+| Chapter One — Introduction | 1 – 5 | Portrait |
+| Chapter Two — Literature Review | 6 – 10 | Portrait |
+| Chapter Three — System Analysis and Design | 11 – 23 | Portrait |
+| Chapter Four — Implementation and Testing | 24 – 34 | Portrait |
+| Chapter Five — Summary, Conclusion, Recommendations | 35 – 38 | Portrait |
+| References | 39 | Portrait |
+| Appendix A — Full-page diagrams and screenshots | 40 – 45 | **Landscape** |
+| Appendix B — Database schema | 46 – 47 | Portrait |
+| Appendix C — Selected source code | 48 – 49 | Portrait |
+| Appendix D — Installation and user guide | 50 – 51 | Portrait |
 
-The report body (Chapters One to Five plus references) runs to 61 pages. The
-appendices carry the full screenshot gallery in landscape so every interface
-image stays legible when printed.
+The report contains 12 figures, 13 tables and 6 full-page landscape plates.
 
 ---
 
-## Before submitting — three things to do
+## The cover crest
 
-1. **Insert the university crest.** The cover page has a dashed placeholder box
-   reading *"[ INSERT UNIVERSITY CREST HERE ]"*. Click it, delete the box and
-   insert the logo image in its place.
+The cover carries the official Kumasi Technical University emblem, taken from
+the university's own website (`kstu.edu.gh`) and cleaned of the transparency
+checkerboard the source file had baked into it. The cleaned image is kept at
+`img/kstu_crest.png` if it is ever needed again.
 
-2. **Check the cover details.** The faculty is given as *Faculty of Applied
-   Sciences and Technology* and the department as *Department of Computer
-   Science*. Correct these if your department is named differently, and fill in
-   the supervisor's name on the declaration page.
+If your department prefers a different version of the crest — the horizontal
+lockup with the wordmark, for instance — replace the image on the cover page.
 
-3. **Update the fields after any edit.** If you add or remove text, the page
-   numbers in the Table of Contents, List of Figures, List of Tables and List of
-   Plates will no longer match. They are written as ordinary text rather than
-   automatic fields, so correct them by hand, or select the whole document and
-   press `Ctrl + A` then `F9` after converting them to fields.
+---
+
+## Before submitting — two things to check
+
+1. **The cover details.** The faculty is given as *Faculty of Applied Sciences
+   and Technology* and the department as *Department of Computer Science*.
+   Correct these if your department is named differently, and fill in the
+   supervisor's name on the declaration page.
+
+2. **Page numbers after editing.** The Table of Contents, List of Figures, List
+   of Tables and List of Plates carry page numbers written as ordinary text, not
+   automatic fields. If you add or remove material the numbers will drift, so
+   correct them by hand afterwards.
 
 ---
 
@@ -63,8 +69,8 @@ engineering. Nothing was invented.
 
 They are, however, general rather than local. Ask your supervisor whether the
 department expects Ghanaian or West African sources on agricultural extension
-and smallholder record keeping; if so, add them to the list and cite them in
-Sections 2.3 and 2.5, where the argument about local practice is made.
+and smallholder record keeping; if so, add them and cite them in Sections 2.3
+and 2.4, where the argument about local practice is made.
 
 ---
 
