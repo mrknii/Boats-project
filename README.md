@@ -28,7 +28,7 @@ Built as a final-year project for a Diploma in Information Technology.
    http://localhost/farm-management-system/install.php
    ```
 
-   It checks your environment, creates the `farm_db` database, builds all 16
+   It checks your environment, creates the `farm_db` database, builds all 17
    tables and loads a full year of demonstration data. Then **delete
    `install.php`**.
 
@@ -102,7 +102,7 @@ These are the parts worth pointing at during a project defence.
 **Front end**
 - A design-token system with a full **light and dark theme**, applied before
   first paint so there is no flash of the wrong theme.
-- **~90 hand-drawn SVG icons** (`includes/icons.php`) rendered inline, so they
+- **75 hand-drawn SVG icons** (`includes/icons.php`) rendered inline, so they
   inherit `currentColor` and animate on hover like any other element.
 - A **charting engine written from scratch** (`assets/js/charts.js`) — smooth
   area/line via Catmull-Rom splines, grouped and stacked bars, animated donuts,

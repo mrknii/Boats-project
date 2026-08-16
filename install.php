@@ -275,7 +275,7 @@ if ($step === 'run' && $allOk) {
           </li>
           <li class="flex items-c gap-10 small">
             <?= icon('arrow-right', 15, 'c-brand') ?>
-            Create all 16 tables with their keys and relationships.
+            Create all 17 tables with their keys and relationships.
           </li>
           <li class="flex items-c gap-10 small">
             <?= icon('arrow-right', 15, 'c-brand') ?>

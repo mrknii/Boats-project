@@ -56,7 +56,7 @@ http://localhost/farm-management-system/install.php
 ```
 
 The page runs five environment checks, then offers an **Install now** button.
-It creates the `farm_db` database, all 16 tables, and a full year of
+It creates the `farm_db` database, all 17 tables, and a full year of
 demonstration data.
 
 When it finishes, **delete `install.php`**. Leaving it in place would let anyone
@@ -68,7 +68,7 @@ rebuild — and therefore wipe — the database.
 2. Click the **Import** tab (you do **not** need to create the database first —
    the SQL file creates it).
 3. Choose `database/farm_db.sql` and press **Go**.
-4. You should see `farm_db` appear with 16 tables.
+4. You should see `farm_db` appear with 17 tables.
 
 ---
 
